@@ -1,0 +1,15 @@
+{
+  "package-id" : "openehr.fhir.template",
+  "title" : "Template for FHIR IGs published by openehr",
+  "canonical" : "http://fhir.org/templates/openehr.fhir.template",
+  "introduction" : "This is the template for FHIR guides published by openehr",
+  "list" : [
+    {
+      "version" : "current",
+      "desc" : "Continuous Integration Build (latest in version control)",
+      "path" : "https://build.fhir.org/ig/FHIR/openehr.fhir.template",
+      "status" : "ci-build",
+      "current" : true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+/output
+/_gencontinuous.bat
+/_gencontinuous.sh
+/_genonce.bat
+/_genonce.sh
+/_updatePublisher.bat
+/_updatePublisher.sh
+/full-ig.zip
+/input-cache/publisher.jar
+
+.DS_Store
+.index.db
+.index.json

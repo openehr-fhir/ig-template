@@ -1,0 +1,13 @@
+{
+  "name" : "openehr.fhir.template",
+  "type" : "fhir.template",
+  "license" : "CC0-1.0",
+  "description" : "IHE FHIR Template",
+  "author" : "http://openehr.org",
+  "canonical" : "http://fhir.org/templates/openehr.fhir.template",
+  "base" : "fhir.base.template",
+  "dependencies" : {
+    "fhir.base.template" : "current"
+  },
+  "version" : "0.1.1"
+}
