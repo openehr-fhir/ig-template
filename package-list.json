@@ -10,6 +10,14 @@
       "path" : "https://build.fhir.org/ig/FHIR/openehr.fhir.template",
       "status" : "ci-build",
       "current" : true
+    },
+    {
+      "version" : "0.1.1",
+      "desc" : "First release",
+      "path" : "http://fhir.org/templates/openehr.fhir.template/0.1.1",
+      "status" : "release",
+      "current" : true,
+      "date" : "2025-02-21"
     }
   ]
 }
