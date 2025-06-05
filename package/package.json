@@ -5,9 +5,9 @@
   "description" : "IHE FHIR Template",
   "author" : "http://openehr.org",
   "canonical" : "http://fhir.org/templates/openehr.fhir.template",
-  "base" : "fhir.base.template",
+  "base" : "fhir2.base.template",
   "dependencies" : {
-    "fhir.base.template" : "current"
+    "fhir2.base.template" : "current"
   },
-  "version" : "0.1.1"
+  "version" : "0.2.1"
 }

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  - Extends the default template to generate a Jira Spec Artifacts file and incidentally does some QA to ensure the IG meets HL7 International publication rules.
+  -->
+<project name="ProcessIg-HL7">
+  <import file="ant.xml"/>
+  <target name="onLoad.updateIg" depends="onLoad.findSpreadsheets">
+    <!-- Override the IG supplementation process to add some openEHR-specific settings -->
+    <xslt in="${onLoad.ig.source}xml" out="${onLoad.ig.dest}xml" style="${ig.scripts}/onLoad.openehr.xslt">
+      <param name="spreadsheetList" expression="${prop.spreadsheet.contents}"/>
+    </xslt>
+  </target>
+</project>
