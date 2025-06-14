@@ -6,7 +6,7 @@
   <import file="ant.xml"/>
   <target name="onLoad.updateIg" depends="onLoad.findSpreadsheets">
     <!-- Override the IG supplementation process to add some openEHR-specific settings -->
-    <xslt in="${onLoad.ig.source}xml" out="${onLoad.ig.dest}xml" style="${ig.scripts}/onLoad.openehr.xslt">
+    <xslt in="${onLoad.ig.source}xml" out="${onLoad.ig.dest}xml" style="${ig.scripts}/onload.openehr.xslt">
       <param name="spreadsheetList" expression="${prop.spreadsheet.contents}"/>
     </xslt>
   </target>
