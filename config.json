@@ -1,0 +1,4 @@
+{
+	"script": "scripts/ant-openehr.xml",
+	"otherScripts" : []
+}
