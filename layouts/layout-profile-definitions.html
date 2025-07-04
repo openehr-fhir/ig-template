@@ -1,0 +1,54 @@
+---
+---
+{% assign localPage = page.path | split: "/" | last %}
+{% include fragment-modelType.html type='{{[type]}}' id='{{[id]}}' lang="{{[lang]}}" %}
+{% include fragment-pagebegin.html lang="{{[lang]}}" %}
+<!-- layouts\layout-profile-definitions -->
+<div style="counter-reset: section 4" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-profile-navtabs.html type='{{[type]}}' id='{{[id]}}' active='definition' lang="{{[lang]}}" %}
+
+<a name="root"> </a>
+{% assign respath = site.data.resources[resource_].path %}
+<h2 id="root">{{modelType}}: {{site.data.pages[respath].titlelang['{{[lang]}}'] | escape_once}} - {{site.data.stringsBase['{{[lang]}}']['DetailedDescriptions']}}</h2>
+{% include fragment-simpletable.html lang="{{[lang]}}" %}
+
+{% assign modelTypeLower = modelType | downcase %}
+{% assign model = "{{[id]}} " | append: modelTypeLower %}
+<p>{{site.data.stringsBase['{{[lang]}}']['DefinitionsFor'] | replace: "%MODEL%", model}}</p>
+
+  <!-- insert intro if present -->
+  {% include fragment-intro.html type='{{[type]}}' id='{{[id]}}' lang="{{[lang]}}" %}
+
+  <div id="tabs">
+    <ul>
+      <li>
+        <a href="#tabs-key">{{site.data.stringsBase['{{[lang]}}']['KeyElementsTable']}}</a>
+      </li>
+      <li>
+        <a href="#tabs-diff">{{site.data.stringsBase['{{[lang]}}']['DifferentialTable']}}</a>
+      </li>
+      <li>
+        <a href="#tabs-snap">{{site.data.stringsBase['{{[lang]}}']['SnapshotTable']}}</a>
+      </li>
+    </ul>
+    <a name="tabs-key"> </a>
+    <div id="tabs-key">
+      {% include StructureDefinition-{{[id]}}-dict-key{{[langsuffix]}}.xhtml %}
+    </div>
+    <a name="tabs-diff"> </a>
+    <div id="tabs-diff">
+      {% include StructureDefinition-{{[id]}}-dict-diff{{[langsuffix]}}.xhtml %}
+    </div>
+    <a name="tabs-snap"> </a>
+    <div id="tabs-snap">
+      {% include StructureDefinition-{{[id]}}-dict{{[langsuffix]}}.xhtml %}
+    </div>
+  </div>
+
+  <!-- insert notes if present -->
+  {% include fragment-notes.html type='{{[type]}}' id='{{[id]}}' lang="{{[lang]}}" %}
+
+</div>
+{% assign includetabscripts = 'true' %}
+{% include fragment-pageend.html lang="{{[lang]}}" %}

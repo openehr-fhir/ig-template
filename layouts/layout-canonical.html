@@ -1,0 +1,51 @@
+---
+---
+{% assign localPage = page.path | split: "/" | last %}
+{% include fragment-modelType.html type='{{[type]}}' id='{{[id]}}' lang="{{[lang]}}" %}
+{% include fragment-pagebegin.html lang='{{[lang]}}' lang="{{[lang]}}" %}
+<!-- layouts\layout-canonical -->
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-base-navtabs.html type='{{[type]}}' id='{{[id]}}' active='content' lang="{{[lang]}}" %}
+  <a name="root"> </a>
+
+{% assign respath = site.data.resources[resource_].path %}
+  <h2 id="root">{{modelType}}: {{site.data.pages[respath].titlelang['{{[lang]}}'] | escape_once}}
+{% if site.data.resources[resource_].experimental == true %}({{site.data.stringsBase['{{[lang]}}']['Experimental']}}){% endif %}
+  </h2>
+
+{% include fragment-resourceTable.html lang="{{[lang]}}" %}
+
+{%if site.data.resources[resource_].description %}
+<p>
+{{site.data.resources[resource_].descriptionlang['{{[lang]}}']|markdownify}}
+</p>
+{% endif %}
+{%if site.data.resources[resource_].purpose %}
+<p>
+{{site.data.resources[resource_].purposelang['{{[lang]}}']|markdownify}}
+</p>
+{% endif %}
+  <!-- insert intro if present -->
+  {% include fragment-intro.html type='{{[type]}}' id='{{[id]}}' lang="{{[lang]}}" %}
+
+<!--  <p>
+  Formats: <a href="{{[type]}}-{{[id]}}.xml.html">XML</a>, <a href="{{[type]}}-{{[id]}}.json.html">JSON</a>, <a href="{{[type]}}-{{[id]}}.ttl.html">Turtle</a>
+  </p>-->
+{% unless example %}
+  {% if '{{[type]}}' == 'CapabilityStatement' %}
+  <p>
+      <a href="../{{[id]}}.openapi.json" no-download="true">{{site.data.stringsBase['{{[lang]}}']['Swagger']}}</a> | <a href="{{[id]}}.openapi.json" download>{{site.data.stringsBase['{{[lang]}}']['Download']}}</a>
+  </p>
+  {% endif %}
+{% endunless %}
+
+  {% include {{[type]}}-{{[id]}}-html{{[langsuffix]}}.xhtml %}
+
+  <!-- insert notes if present -->
+  {% include fragment-notes.html type='{{[type]}}' id='{{[id]}}' lang="{{[lang]}}" %}
+
+  {% include {{[type]}}-{{[id]}}-history{{[langsuffix]}}.xhtml %}
+
+</div>
+{% include fragment-pageend.html lang="{{[lang]}}" %}

@@ -1,0 +1,42 @@
+---
+---
+{% assign localPage = page.path | split: "/" | last %}
+{% include fragment-modelType.html type='{{[type]}}' id='{{[id]}}' lang="{{[lang]}}" %}
+{% include fragment-pagebegin.html lang="{{[lang]}}" %}
+<!-- layouts\layout-profile-examples -->
+<div style="counter-reset: section 6" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-profile-navtabs.html type='{{[type]}}' id='{{[id]}}' active='example' lang="{{[lang]}}" %}
+
+  <a name="root"> </a>
+{% assign respath = site.data.resources[resource_].path %}
+  <h2 id="root">{{modelType}}: {{site.data.pages[respath].titlelang['{{[lang]}}'] | escape_once}} - {{site.data.stringsBase['{{[lang]}}']['Examples']}}</h2>
+{% include fragment-simpletable.html lang="{{[lang]}}" %}
+
+   <!-- insert intro if present -->
+    {% include fragment-intro.html type='{{[type]}}' id='{{[id]}}' lang="{{[lang]}}" %}
+
+{% assign basepath = localPage | replace: '-examples.html', '.html' %}
+{% if site.data.pages[basepath].examples.size > 0 %}
+  <p>{{site.data.stringsBase['{{[lang]}}']['ExamplesForProfile'] | replace: "%ID%", "{{[id]}}"}}</p>
+  <table style="grid">
+    <tbody>
+      {% for example in site.data.pages[basepath].examples %}
+        <tr>
+          <td>
+            <a href="{{example.url}}">{{example.titlelang["{{[lang]}}"] | escape_once}}</a>
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% else %}
+  <p><b>{{site.data.stringsBase['{{[lang]}}']['NoExamples'] | replace: "%ID%", "{{[id]}}"}}</b></p>
+{% endif %}
+
+<!-- insert notes if present -->
+{% include fragment-notes.html type='{{[type]}}' id='{{[id]}}' lang="{{[lang]}}" %}
+
+</div>
+{% assign includetabscripts = 'true' %}
+{% include fragment-pageend.html lang="{{[lang]}}" %}

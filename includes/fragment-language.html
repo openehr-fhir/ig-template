@@ -1,0 +1,22 @@
+{% if site.data.languages.langs.size() != 1 %}
+{% if dir == 'rtl' %}
+{% assign langside = 'left' %}
+{% assign arrowoffset = 0 %}
+{% else %}
+{% assign langside = 'right' %}
+{% assign arrowoffset = 133 %}
+{% endif %}
+{% assign currlang = site.data.languages.langs | find: 'code', include.lang %}
+<div style="float: var(--ig-right);padding: 8px 0px;" id="language">
+  <div id="select_flg" class="flaglist" style="background-image: url({{site.data.info.assets}}assets/images/icon_arrow_down.png);background-position: {{arrowoffset}}px 3px;">
+    <div>{% unless site.data.info.excludeflags=='Y' %}<img class="flag" alt="flag en" src="{{site.data.info.assets}}assets/images/lang-{{include.lang}}.png"/>{% endunless %}{{currlang.display}}</div>
+  </div>
+  <div style="float: var(--ig-right); margin: 2px 0px; padding: 1px 0;color: var(--btn-text-color);font-size:12px">Language:</div>
+ 	<div id="flaglist" class="flaglist" style="display: none;position: absolute;{{langside}}: 0;z-index: 100;background-image: url({{site.data.info.assets}}assets/images/icon_arrow_up.png);background-position: {{arrowoffset}}px 3px;">
+    <div>{% unless site.data.info.excludeflags=='Y' %}<img class="flag" alt="flag {{include.lang}}" src="{{site.data.info.assets}}assets/images/lang-{{include.lang}}.png"/>{% endunless %}{{currlang.display}}</div>
+{% for alang in site.data.languages.langs %}{% if alang.code != include.lang %}
+    <div><a href="../{{alang.code}}/{{page.name}}">{% unless site.data.info.excludeflags=='Y' %}<img class="flag" src="{{site.data.info.assets}}assets/images/lang-{{alang.code}}.png" alt="flag {{alang.code}}"/>{% endunless %}{{alang.display}}</a></div>
+{% endif %}{% endfor %}
+  </div>
+</div>
+{% endif %}

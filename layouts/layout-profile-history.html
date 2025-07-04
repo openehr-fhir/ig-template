@@ -1,0 +1,23 @@
+---
+---
+{% assign localPage = page.path | split: "/" | last %}
+{% include fragment-modelType.html type='{{[type]}}' id='{{[id]}}' lang="{{[lang]}}" %}
+{% include fragment-pagebegin.html lang="{{[lang]}}" %}
+<!-- layouts\layout-profile-history -->
+<div style="counter-reset: section 10" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-profile-navtabs.html type='{{[type]}}' id='{{[id]}}' active='history' lang="{{[lang]}}" %}
+
+  <a name="root"> </a>
+{% assign respath = site.data.resources[resource_].path %}
+  <h2 id="root">{{modelType}}: {{site.data.pages[respath].titlelang['{{[lang]}}'] | escape_once}} - {{site.data.stringsBase['{{[lang]}}']['ChangeHistory']}}</h2>
+  <h2 id="root">{{modelType}}: {{site.data.resources[resource_].titlelang['{{[lang]}}']}}
+{% include fragment-simpletable.html lang="{{[lang]}}" %}
+{% assign modelLower = modelType | downcase %}
+  <p>{{site.data.stringsBase['{{[lang]}}']['ChangesIn'] | replace: "%ID%", "{{[id]}}" | replace: "%TYPE%", modelLower}}</p>
+
+  {% include {{[type]}}-{{[id]}}-history{{[langsuffix]}}.xhtml %}
+
+</div>
+{% assign includetabscripts = 'true' %}
+{% include fragment-pageend.html lang="{{[lang]}}" %}

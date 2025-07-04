@@ -1,0 +1,208 @@
+---
+---
+{% assign localPage = page.path | split: "/" | last %}
+{% include fragment-pagebegin.html lang="{{[lang]}}" %}
+<!-- layouts\layout-ext -->
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-profile-navtabs.html type='{{[type]}}' id='{{[id]}}' active='content' lang="{{[lang]}}" %}
+  <a name="root"> </a>
+  <h2 id="root">{{site.data.stringsBase['{{[lang]}}']['Extension']}}: {{site.data.resources[resource_].titlelang['{{[lang]}}'] | escape_once}}
+{% if site.data.resources[resource_].experimental == true %}({{site.data.stringsBase['{{[lang]}}']['Experimental']}}){% endif %}
+  </h2>
+
+{% include fragment-resourceTable.html lang="{{[lang]}}" %}
+{%if site.data.resources[resource_].description %}
+{{site.data.resources[resource_].descriptionlang['{{[lang]}}']|markdownify}}
+{% endif %}{%if site.data.resources[resource_].purpose %}
+{{site.data.resources[resource_].purposelang['{{[lang]}}']|markdownify}}
+{% endif %}
+
+  <p><b>Context of Use</b></p>
+  <ul>
+  {% include StructureDefinition-{{[id]}}-sd-use-context{{[langsuffix]}}.xhtml %}
+  </ul>
+
+  <!-- insert intro if present -->
+  {% include fragment-intro.html type='{{[type]}}' id='{{[id]}}' lang="{{[lang]}}" %}
+
+  <p><b>Usage info</b></p>
+  {% include StructureDefinition-{{[id]}}-sd-xref{{[langsuffix]}}.xhtml %}
+
+  <!-- no uri -->
+  <a name="profile"> </a>
+  <h3 id="profile">{{site.data.stringsBase['{{[lang]}}']['FormalExtension']}}</h3>
+  <p>
+    <a href="http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions">{{site.data.stringsBase['{{[lang]}}']['ReadingStructures']}}</a>.
+  </p>
+  <div id="tabs">
+    <ul>
+      <li>
+        <a href="#tabs-diff">{{site.data.stringsBase['{{[lang]}}']['DifferentialTable']}}</a>
+      </li>
+      <li>
+        <a href="#tabs-snap">{{site.data.stringsBase['{{[lang]}}']['SnapshotTable']}}</a>
+      </li>
+{% unless excludexml == 'y' %}
+      <!--<li>
+        <a href="#tabs-xml">{{site.data.stringsBase['{{[lang]}}']['PseudoXML']}}</a>
+      </li>-->
+{% endunless %}
+{% unless excludejson == 'y' %}
+      <!--<li>
+        <a href="#tabs-json">{{site.data.stringsBase['{{[lang]}}']['PseudoJSON']}}</a>
+      </li>-->
+{% endunless %}
+{% unless excludettl == 'y' %}
+      <!--<li>
+        <a href="#tabs-ttl">{{site.data.stringsBase['{{[lang]}}']['PseudoTTL']}}</a>
+      </li>-->
+{% endunless %}
+      <li>
+        <a href="#tabs-summ">{{site.data.stringsBase['{{[lang]}}']['StatisticsReferences']}}</a>
+      </li>
+      <li>
+        <a href="#tabs-all">{{site.data.stringsBase['{{[lang]}}']['AllTables']}}All</a>
+      </li>
+    </ul>
+    {% capture sdlink %}
+      <a href="site.data.structuredefinitions['{{[id]}}'].basepath">site.data.structuredefinitions['{{[id]}}'].basename</a>
+    {% endcapture %}
+    <a name="tabs-diff"> </a>
+    <div id="tabs-diff">
+      <div id="tbl-diff">
+        <p>{{site.data.stringsBase['{{[lang]}}']['Derived'] | replace: "%ARTIFACT%", sdlink}}</p>
+        <div id="tbl-diff-inner">
+          {% include StructureDefinition-{{[id]}}-diff{{[langsuffix]}}.xhtml %}
+        </div>
+      </div>
+    </div>
+    <a name="tabs-snap"> </a>
+    <div id="tabs-snap">
+      <div id="tbl-snap">
+        <div id="tbl-snap-inner">
+          {% include StructureDefinition-{{[id]}}-snapshot{{[langsuffix]}}.xhtml %}
+        </div>
+      </div>
+    </div>
+{% unless excludexml == 'y' %}
+    <!--<a name="tabs-xml"> </a>
+    <div id="tabs-xml">
+      <div id="xml">
+        <div id="xml-inner">
+          {% include StructureDefinition-{{[id]}}-pseudo-xml{{[langsuffix]}}.xhtml %}
+        </div>
+      </div>
+    </div>-->
+{% endunless %}
+{% unless excludejson == 'y' %}
+    <!--<a name="tabs-json"> </a>
+    <div id="tabs-json">
+      <div id="json">
+        <div id="json-inner">
+          {% include StructureDefinition-{{[id]}}-pseudo-json{{[langsuffix]}}.xhtml %}
+        </div>
+      </div>
+    </div>-->
+{% endunless %}
+{% unless excludettl == 'y' %}
+    <!--<a name="tabs-ttl"> </a>
+    <div id="tabs-ttl">
+      <div id="ttl">
+        <div id="ttl-inner">
+          {% include StructureDefinition-{{[id]}}-pseudo-ttl{{[langsuffix]}}.xhtml %}
+        </div>
+      </div>
+    </div>-->
+{% endunless %}
+    <a name="tabs-summ"> </a>
+    <div id="tabs-summ">
+      <div id="tbl-summ">
+        <p>{{site.data.stringsBase['{{[lang]}}']['Derived'] | replace: "%ARTIFACT%", sdlink}}</p>
+        <div id="tbl-summ-inner">
+          <a name="summary"> </a>
+          {% include StructureDefinition-{{[id]}}-summary{{[langsuffix]}}.xhtml %}
+        </div>
+      </div>
+    </div>
+    <a name="tabs-all"> </a>
+    <div id="tabs-all">
+      <div id="all-tbl-diff">
+        <p>
+          <b>{{site.data.stringsBase['{{[lang]}}']['DifferentialView']}}Differential View</b>
+        </p>
+        <p>{{site.data.stringsBase['{{[lang]}}']['Derived'] | replace: "%ARTIFACT%", sdlink}}</p>
+        <div id="all-tbl-diff-inner">
+          {% include StructureDefinition-{{[id]}}-diff-all{{[langsuffix]}}.xhtml %}
+        </div>
+      </div>
+      <div id="all-tbl-snap">
+        <p>
+          <b>{{site.data.stringsBase['{{[lang]}}']['SnapshotView']}}</b>
+        </p>
+        <div id="all-tbl-snap-inner">
+          {% include StructureDefinition-{{[id]}}-snapshot-all{{[langsuffix]}}.xhtml %}
+        </div>
+      </div>
+{% unless excludexml == 'y' %}
+      <!--<div id="all-xml">
+        <p>
+          <b>{{site.data.stringsBase['{{[lang]}}']['XMLTemplate']}}</b>
+        </p>
+        <div id="all-xml-inner">
+          {% include StructureDefinition-{{[id]}}-pseudo-xml{{[langsuffix]}}.xhtml %}
+        </div>
+      </div>-->
+{% endunless %}
+{% unless excludejson == 'y' %}
+      <!--<div id="all-json">
+        <p>
+          <b>{{site.data.stringsBase['{{[lang]}}']['JSONTemplate']}}</b>
+        </p>
+        <div id="all-json-inner">
+          {% include StructureDefinition-{{[id]}}-pseudo-json{{[langsuffix]}}.xhtml %}
+        </div>
+      </div>-->
+{% endunless %}
+{% unless excludettl == 'y' %}
+      <!--<div id="all-ttl">
+        <p>
+          <b>{{site.data.stringsBase['{{[lang]}}']['TTLTemplate']}}</b>
+        </p>
+        <div id="all-ttl-inner">
+          {% include StructureDefinition-{{[id]}}-pseudo-ttl{{[langsuffix]}}.xhtml %}
+        </div>
+      </div>-->
+{% endunless %}
+      <div id="all-summ">
+        <p>{{site.data.stringsBase['{{[lang]}}']['Derived'] | replace: "%ARTIFACT%", sdlink}}</p>
+        </p>
+        <div id="all-summ-inner">
+          {% include StructureDefinition-{{[id]}}-summary-all{{[langsuffix]}}.xhtml %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <p>&#160;</p>
+  <p>{{site.data.stringsBase['{{[lang]}}']['OtherReps']}} <a href="../{{[type]}}-{{[id]}}.csv">{{site.data.stringsBase['{{[lang]}}']['CSV']}}</a>, <a href="../{{[type]}}-{{[id]}}.xlsx">{{site.data.stringsBase['{{[lang]}}']['Excel']}}</a>, <a href="../{{[type]}}-{{[id]}}.sch">{{site.data.stringsBase['{{[lang]}}']['Schematron']}}</a>
+  </p>
+  <a name="tx"> </a>
+  <!--Terminology Bindings heading in the fragment -->
+  {% include StructureDefinition-{{[id]}}-tx{{[langsuffix]}}.xhtml %}
+
+{% capture invariants %}
+  {% include StructureDefinition-{{[id]}}-inv{{[langsuffix]}}.xhtml %}
+{% endcapture %}
+<!-- 218 is size of empty table -->
+{% unless invariants.size <= 218 %}
+  <a name="inv"> </a>
+  <!--Constraints  heading in the fragment -->
+  {% include StructureDefinition-{{[id]}}-inv{{[langsuffix]}}.xhtml %}
+{% endunless%}
+
+  <!-- insert notes if present -->
+  {% include fragment-notes.html type='{{[type]}}' id='{{[id]}}' lang="{{[lang]}}" %}
+
+</div>
+{% assign includetabscripts = 'true' %}
+{% include fragment-pageend.html lang="{{[lang]}}" %}

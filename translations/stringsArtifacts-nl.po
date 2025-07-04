@@ -1,0 +1,282 @@
+# ActorDefinitionName
+msgid ""
+msgstr ""
+
+#: ActorDefinitionName
+msgid "Requirements: Actor Definitions"
+msgstr "Vereisten: Actordefinities"
+
+# ActorDefinitionDesc
+#: ActorDefinitionDesc
+msgid "The following artifacts define the types of individuals and/or systems that will interact as part of the use cases covered by this implementation guide."
+msgstr "De volgende artefacten definiëren de typen personen en/of systemen die met elkaar zullen interageren als onderdeel van de use cases die in deze implementatiegids worden behandeld."
+
+# RequirementsName
+#: RequirementsName
+msgid "Requirements: Formal Requirements"
+msgstr "Vereisten: Formele vereisten"
+
+# RequirementsDesc
+#: RequirementsDesc
+msgid "The following artifacts describe the specific requirements to be met by systems compliant with the implementation guide."
+msgstr "De volgende artefacten beschrijven de specifieke eisen waaraan systemen moeten voldoen die voldoen aan de implementatiegids."
+
+# CapabilityStatementName
+#: CapabilityStatementName
+msgid "Behavior: Capability Statements"
+msgstr "Gedrag: Vermogensverklaringen"
+
+# CapabilityStatementDesc
+#: CapabilityStatementDesc
+msgid "The following artifacts define the specific capabilities that different types of systems are expected to have in order to comply with this implementation guide.  Systems conforming to this implementation guide are expected to declare conformance to one or more of the following capability statements."
+msgstr "De volgende artefacten definiëren de specifieke mogelijkheden die verschillende typen systemen geacht worden te hebben om aan deze implementatiegids te voldoen.  Van systemen die zich conformeren aan deze implementatiegids wordt verwacht dat ze conformiteit verklaren met een of meer van de volgende capaciteitsverklaringen."
+
+# OperationDefinitionName
+#: OperationDefinitionName
+msgid "Behavior: Operation Definitions"
+msgstr "Gedrag: Werking Definities"
+
+# OperationDefinitionDesc
+#: OperationDefinitionDesc
+msgid "These are custom operations that can be supported by and/or invoked by systems conforming to this implementation guide."
+msgstr "Dit zijn aangepaste operaties die ondersteund kunnen worden door en/of aangeroepen kunnen worden door systemen die voldoen aan deze implementatiegids."
+
+# MessageDefinitionName
+#: MessageDefinitionName
+msgid "Behavior: Message Definitions"
+msgstr "Gedrag: Berichtdefinities"
+
+# MessageDefinitionDesc
+#: MessageDefinitionDesc
+msgid "These define the types of messages that can be sent and/or received by systems conforming to this implementation guide."
+msgstr "Deze definiëren de typen berichten die kunnen worden verzonden en/of ontvangen door systemen die zich conformeren aan deze implementatiegids."
+
+# SearchParameterName
+#: SearchParameterName
+msgid "Behavior: Search Parameters"
+msgstr "Gedrag: Zoekparameters"
+
+# SearchParameterDesc
+#: SearchParameterDesc
+msgid "These define the properties by which a RESTful server can be searched.  They can also be used for sorting and including related resources."
+msgstr "Deze definiëren de eigenschappen waarmee een RESTful server kan worden doorzocht.  Ze kunnen ook worden gebruikt om gerelateerde bronnen te sorteren en op te nemen."
+
+# ActivityDefinitionName
+#: ActivityDefinitionName
+msgid "Knowledge Artifacts: Activity Definitions"
+msgstr "Kennis Artefacten: Definities van activiteiten"
+
+# ActivityDefinitionDesc
+#: ActivityDefinitionDesc
+msgid "These define activities that can be performed as part of content in this implementation guide."
+msgstr "Deze definiëren activiteiten die kunnen worden uitgevoerd als onderdeel van de inhoud van deze implementatiegids."
+
+# PlanDefinitionName
+#: PlanDefinitionName
+msgid "Knowledge Artifacts: Plan Definitions"
+msgstr "Kennisartefacten: Plan Definities"
+
+# PlanDefinitionDesc
+#: PlanDefinitionDesc
+msgid "These define workflows, rules, strategies, or protocols as part of content in this implementation guide."
+msgstr "Deze definiëren workflows, regels, strategieën of protocollen als onderdeel van de inhoud in deze implementatiegids."
+
+# MeasureName
+#: MeasureName
+msgid "Knowledge Artifacts: Measure"
+msgstr "Kennisartefacten: Meten"
+
+# MeasureDesc
+#: MeasureDesc
+msgid "These define measures as part of content in this implementation guide."
+msgstr "Deze definiëren maatregelen als onderdeel van de inhoud van deze implementatiegids."
+
+# LibraryName
+#: LibraryName
+msgid "Knowledge Artifacts: Libraries"
+msgstr "Kennisartefacten: Bibliotheken"
+
+# LibraryDesc
+#: LibraryDesc
+msgid "These define logic, asset collections and other libraries as part of content in this implementation guide."
+msgstr "Deze definiëren logica, assetverzamelingen en andere bibliotheken als onderdeel van de inhoud in deze implementatiegids."
+
+# GraphDefinitionName
+#: GraphDefinitionName
+msgid "Structures: Graph Definitions"
+msgstr "Structuren: Grafiekdefinities"
+
+# GraphDefinitionDesc
+#: GraphDefinitionDesc
+msgid "These define collections of interrelated resources that are useful to pass around as a group."
+msgstr "Deze definiëren verzamelingen van onderling gerelateerde bronnen die nuttig zijn om als groep door te geven."
+
+# LogicalModelName
+#: LogicalModelName
+msgid "Structures: Logical Models"
+msgstr "Structuren: Logische modellen"
+
+# LogicalModelDesc
+#: LogicalModelDesc
+msgid "These define data models that represent the domain covered by this implementation guide in more business-friendly terms than the underlying FHIR resources."
+msgstr "Deze definiëren datamodellen die het domein waarop deze implementatiegids betrekking heeft in meer bedrijfsvriendelijke termen weergeven dan de onderliggende FHIR-bronnen."
+
+# QuestionnaireName
+#: QuestionnaireName
+msgid "Structures: Questionnaires"
+msgstr "Structuren: Vragenlijsten"
+
+# QuestionnaireDesc
+#: QuestionnaireDesc
+msgid "These define forms used by systems conforming to this implementation guide to capture or expose data to end users."
+msgstr "Deze definiëren formulieren die gebruikt worden door systemen die voldoen aan deze implementatiegids om gegevens vast te leggen of beschikbaar te stellen aan eindgebruikers."
+
+# AbstractProfileName
+#: AbstractProfileName
+msgid "Structures: Abstract Profiles"
+msgstr "Structuren: Abstracte profielen"
+
+# AbstractProfileDesc
+#: AbstractProfileDesc
+msgid "These are profiles on resources or data types that describe patterns used by other profiles, but cannot be instantiated directly.  I.e. instances can conform to profiles *based* on these abstract profiles, but do not declare conformance to the abstract profiles themselves."
+msgstr "Dit zijn profielen over bronnen of gegevenstypen die patronen beschrijven die gebruikt worden door andere profielen, maar die niet direct geïnstantieerd kunnen worden.  D.w.z. instanties kunnen zich conformeren aan profielen *gebaseerd* op deze abstracte profielen, maar verklaren zich niet conform aan de abstracte profielen zelf."
+
+# ResourceProfileName
+#: ResourceProfileName
+msgid "Structures: Resource Profiles"
+msgstr "Structuren: Hulpbronprofielen"
+
+# ResourceProfileDesc
+#: ResourceProfileDesc
+msgid "These define constraints on FHIR resources for systems conforming to this implementation guide."
+msgstr "Deze definiëren beperkingen op FHIR-middelen voor systemen die voldoen aan deze implementatiegids."
+
+# DataTypeName
+#: DataTypeName
+msgid "Structures: Data Type Profiles"
+msgstr "Structuren: Gegevenstype profielen"
+
+# DataTypeDesc
+#: DataTypeDesc
+msgid "These define constraints on FHIR data types for systems conforming to this implementation guide."
+msgstr "Deze definiëren beperkingen voor FHIR-gegevenstypen voor systemen die voldoen aan deze implementatiegids."
+
+# ExtensionName
+#: ExtensionName
+msgid "Structures: Extension Definitions"
+msgstr "Structuren: Uitbreiding Definities"
+
+# ExtensionDesc
+#: ExtensionDesc
+msgid "These define constraints on FHIR data types for systems conforming to this implementation guide."
+msgstr "Deze definiëren beperkingen voor FHIR-gegevenstypen voor systemen die voldoen aan deze implementatiegids."
+
+# ValueSetName
+#: ValueSetName
+msgid "Terminology: Value Sets"
+msgstr "Terminologie: Waardesets"
+
+# ValueSetDesc
+#: ValueSetDesc
+msgid "These define sets of codes used by systems conforming to this implementation guide."
+msgstr "Deze definiëren codesets die gebruikt worden door systemen die voldoen aan deze implementatiegids."
+
+# CodeSystemName
+#: CodeSystemName
+msgid "Terminology: Code Systems"
+msgstr "Terminologie: Codesystemen"
+
+# CodeSystemDesc
+#: CodeSystemDesc
+msgid "These define new code systems used by systems conforming to this implementation guide."
+msgstr "Deze definiëren nieuwe codesystemen die gebruikt worden door systemen die voldoen aan deze implementatiegids."
+
+# NamingSystemName
+#: NamingSystemName
+msgid "Terminology: Naming Systems"
+msgstr "Terminologie: Naamgevingssystemen"
+
+# NamingSystemDesc
+#: NamingSystemDesc
+msgid "These define identifier and/or code system identities used by systems conforming to this implementation guide."
+msgstr "Deze definiëren identiteiten van identificatiesystemen en/of codesystemen die gebruikt worden door systemen die voldoen aan deze implementatiegids."
+
+# StructureMapName
+#: StructureMapName
+msgid "Terminology: Structure Maps"
+msgstr "Terminologie: Structuurkaarten"
+
+# StructureMapDesc
+#: StructureMapDesc
+msgid "These define transformations to convert between data structures used by systems conforming to this implementation guide."
+msgstr "Deze definiëren transformaties om te converteren tussen gegevensstructuren die worden gebruikt door systemen die voldoen aan deze implementatiegids."
+
+# ConceptMapName
+#: ConceptMapName
+msgid "Terminology: Concept Maps"
+msgstr "Terminologie: Conceptkaarten"
+
+# ConceptMapDesc
+#: ConceptMapDesc
+msgid "These define transformations to convert between codes by systems conforming with this implementation guide."
+msgstr "Deze definiëren transformaties om codes om te zetten door systemen die voldoen aan deze implementatiegids."
+
+# TestPlanName
+#: TestPlanName
+msgid "Testing Artifacts: TestPlans"
+msgstr "Testartefacten: TestPlans"
+
+# TestPlanDesc
+#: TestPlanDesc
+msgid "These test plans are available to verify test coverage for this implementation guide"
+msgstr "Deze testplannen zijn beschikbaar om de testdekking voor deze implementatiegids te verifiëren"
+
+# TestScriptName
+#: TestScriptName
+msgid "Testing Artifacts: TestScripts"
+msgstr "Test artefacten: TestScripts"
+
+# TestScriptDesc
+#: TestScriptDesc
+msgid "These test definitions are available to FHIR test engines to verify systems are conforming to this implementation guide"
+msgstr "Deze testdefinities zijn beschikbaar voor FHIR test engines om te controleren of systemen voldoen aan deze implementatiegids."
+
+# ExampleScenarioName
+#: ExampleScenarioName
+msgid "Example: Example Scenarios"
+msgstr "Voorbeeld: Voorbeeldscenario's"
+
+# ExampleScenarioDesc
+#: ExampleScenarioDesc
+msgid "These define groups of interrelated examples that demonstrate one or more of the workflows supported by this implementation guide."
+msgstr "Deze definiëren groepen van onderling gerelateerde voorbeelden die een of meer van de workflows demonstreren die door deze implementatiegids worden ondersteund."
+
+# ExampleName
+#: ExampleName
+msgid "Example: Example Instances"
+msgstr "Voorbeeld: Voorbeeldinstanties"
+
+# ExampleDesc
+#: ExampleDesc
+msgid "These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like."
+msgstr "Dit zijn voorbeeldinstanties die laten zien hoe gegevens die worden geproduceerd en verbruikt door systemen die voldoen aan deze implementatiegids eruit zouden kunnen zien."
+
+# ExampleSupportingName
+#: ExampleSupportingName
+msgid "Example: Example Supporting Instances"
+msgstr "Voorbeeld: Voorbeeld ondersteunende instanties"
+
+# ExampleSupportingDesc
+#: ExampleSupportingDesc
+msgid "These are example instances that are not governed by this implementation guide, but which are necessary to support other examples defined in the IG."
+msgstr "Dit zijn voorbeeldinstanties die niet onder deze implementatiegids vallen, maar die nodig zijn om andere voorbeelden gedefinieerd in de IG te ondersteunen."
+
+# OtherName
+#: OtherName
+msgid "Other"
+msgstr "Andere"
+
+# OtherDesc
+#: OtherDesc
+msgid "These are resources that are used within this implementation guide that do not fit into one of the other categories."
+msgstr "Dit zijn bronnen die in deze implementatiegids worden gebruikt en die niet in een van de andere categorieën passen."

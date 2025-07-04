@@ -1,0 +1,562 @@
+# NO_TRANS
+msgid ""
+msgstr ""
+
+#: NO_TRANS
+msgid "There is no translation page available for the current page, so it has been rendered in the default language"
+msgstr "لا توجد صفحة ترجمة متاحة للصفحة الحالية، لذلك تم تقديمها باللغة الافتراضية"
+
+# TRANS_HLP
+#: TRANS_HLP
+msgid "This page includes translations from the original source language in which the guide was authored.  Information on these translations and instructions on how to provide feedback on the translations can be found [here](translationinfo.html)."
+msgstr "تتضمن هذه الصفحة ترجمات من لغة المصدر الأصلية التي تم تأليف الدليل بها.  يمكن العثور على معلومات عن هذه الترجمات وتعليمات حول كيفية تقديم الملاحظات على الترجمات [هنا] (translationinfo.html)."
+
+# Experimental
+#: Experimental
+msgid "Experimental"
+msgstr "تجريبي"
+
+# Swagger
+#: Swagger
+msgid "Raw OpenAPI-Swagger Definition file"
+msgstr "ملف تعريف OpenAPI-Swagger الخام"
+
+# Download
+#: Download
+msgid "Download"
+msgstr "تنزيل"
+
+# NoTestPlan
+#: NoTestPlan
+msgid "No test plans are currently available for the %ARTIFACT%."
+msgstr "لا توجد خطط اختبار متوفرة حالياً ل %ARTIFACT%."
+
+# NoTestScript
+#: NoTestScript
+msgid "No test scripts are currently available for the %ARTIFACT%."
+msgstr "لا تتوفر حالياً أي برامج نصية للاختبار ل %ARTIFACT%."
+
+# ChangeHistory
+#: ChangeHistory
+msgid "Change History"
+msgstr "تغيير التاريخ"
+
+# HistoryOfChange
+#: HistoryOfChange
+msgid "History of changes for %ARTIFACT%."
+msgstr "تاريخ التغييرات في %ARTIFACT%."
+
+# CodeSystemValuesets
+#: CodeSystemValuesets
+msgid "This Code system is referenced in the definition of the following value sets:"
+msgstr "تتم الإشارة إلى نظام الرموز هذا في تعريف مجموعات القيم التالية:"
+
+# Contained
+#: Contained
+msgid "Contained resources"
+msgstr "الموارد المحتواة"
+
+# FormalExtension
+#: FormalExtension
+msgid "Formal Views of Extension Content"
+msgstr "الآراء الرسمية لمحتوى الإرشاد"
+
+# FormalProfile
+#: FormalProfile
+msgid "Formal Views of Profile Content"
+msgstr "طرق العرض الرسمية لمحتوى الملف الشخصي"
+
+# ReadingStructures
+#: ReadingStructures
+msgid "Description of Profiles, Differentials, Snapshots, and their representations"
+msgstr "وصف الملامح والفوارق واللقطات وتمثيلاتها"
+
+# KeyElementsTable
+#: KeyElementsTable
+msgid "Key Elements Table"
+msgstr "جدول العناصر الرئيسية"
+
+# DifferentialTable
+#: DifferentialTable
+msgid "Differential Table"
+msgstr "الجدول التفاضلي"
+
+# SnapshotTable
+#: SnapshotTable
+msgid "Snapshot Table"
+msgstr "جدول اللقطات"
+
+# PseudoXML
+#: PseudoXML
+msgid "Pseudo XML"
+msgstr "Pseudo XML الزائف"
+
+# PseudoJSON
+#: PseudoJSON
+msgid "Pseudo JSON"
+msgstr "JSON الزائف"
+
+# PseudoTTL
+#: PseudoTTL
+msgid "Pseudo TTL"
+msgstr "TTL زائف TTL"
+
+# StatisticsReferences
+#: StatisticsReferences
+msgid "Statistics/References"
+msgstr "الإحصائيات/المراجع"
+
+# AllTables
+#: AllTables
+msgid "All"
+msgstr "الكل"
+
+# Derived
+#: Derived
+msgid "This structure is derived from %ARTIFACT%"
+msgstr "هذا التركيب مشتق من %ARTIFACT%"
+
+# KeyElementsView
+#: KeyElementsView
+msgid "Key Elements View"
+msgstr "عرض العناصر الرئيسية"
+
+# DifferentialView
+#: DifferentialView
+msgid "Differential View"
+msgstr "العرض التفاضلي"
+
+# SnapshotView
+#: SnapshotView
+msgid "Snapshot View"
+msgstr "عرض اللقطة"
+
+# XMLTemplate
+#: XMLTemplate
+msgid "XML Template"
+msgstr "قالب XML"
+
+# JSONTemplate
+#: JSONTemplate
+msgid "JSON Template"
+msgstr "قالب JSON"
+
+# TTLTemplate
+#: TTLTemplate
+msgid "TTL Template"
+msgstr "قالب TTL"
+
+# OtherReps
+#: OtherReps
+msgid "Other representations of profile:"
+msgstr "تمثيلات أخرى للملف الشخصي:"
+
+# CSV
+#: CSV
+msgid "CSV"
+msgstr "CSV"
+
+# Excel
+#: Excel
+msgid "Excel"
+msgstr "إكسل"
+
+# Schematron
+#: Schematron
+msgid "Schematron"
+msgstr "سكيماترون"
+
+# Example
+#: Example
+msgid "Example"
+msgstr "مثال على ذلك"
+
+# Examples
+#: Examples
+msgid "Examples"
+msgstr "أمثلة"
+
+# Raw
+#: Raw
+msgid "Raw %FMT%"
+msgstr "النسبة المئوية الخام %FMT%"
+
+# Abstract
+#: Abstract
+msgid "Abstract"
+msgstr "الخلاصة"
+
+# DetailedDescriptions
+#: DetailedDescriptions
+msgid "Detailed Descriptions"
+msgstr "الأوصاف التفصيلية"
+
+# DefinitionsFor
+#: DefinitionsFor
+msgid "Definitions for the %MODEL%"
+msgstr "تعريفات ل %MODEL%"
+
+# NoExamples
+#: NoExamples
+msgid "No examples are currently available for the %ID% Profile."
+msgstr "لا توجد أمثلة متوفرة حالياً لملف التعريف %ID%."
+
+# ExamplesForProfile
+#: ExamplesForProfile
+msgid "Examples for the %ID% Profile."
+msgstr "أمثلة لـ %ID% الملف الشخصي"
+
+# FormatProfile
+#: FormatProfile
+msgid "%FMT% Profile"
+msgstr "%ملف تعريف %FMT%"
+
+# FormatRep
+#: FormatRep
+msgid "%FMT% representation of the %ID% %TYPE%."
+msgstr "%تمثيل %FMT% لـ %ID% %النوع %النوع %."
+
+# Mappings
+#: Mappings
+msgid "Mappings"
+msgstr "التعيينات"
+
+# MappingsFor
+#: MappingsFor
+msgid "Mappings for the %ID% %TYPE%."
+msgstr "التعيينات الخاصة بـ %ID% %النوع %النوع %."
+
+# ChangesIn
+#: ChangesIn
+msgid "Changes in the %ID% %TYPE%."
+msgstr "التغييرات في %ID% %النوع %النوع %."
+
+# Testing
+#: Testing
+msgid "Testing"
+msgstr "الاختبار"
+
+# TestScripts
+#: TestScripts
+msgid "Test Scripts"
+msgstr "البرامج النصية للاختبار"
+
+# Expansion
+#: Expansion
+msgid "Expansion"
+msgstr "التوسعة"
+
+# Content
+#: Content
+msgid "Content"
+msgstr "المحتوى"
+
+# XML
+#: XML
+msgid "XML"
+msgstr "XML"
+
+# JSON
+#: JSON
+msgid "JSON"
+msgstr "JSON"
+
+# TTL
+#: TTL
+msgid "TTL"
+msgstr "TTL"
+
+# History
+#: History
+msgid "History"
+msgstr "التاريخ"
+
+# Extension
+#: Extension
+msgid "Extension"
+msgstr "التمديد"
+
+# LogicalModel
+#: LogicalModel
+msgid "Logical Model"
+msgstr "النموذج المنطقي"
+
+# ResourceProfile
+#: ResourceProfile
+msgid "Resource Profile"
+msgstr "الملف الشخصي للموارد"
+
+# DataTypeProfile
+#: DataTypeProfile
+msgid "Data Type Profile"
+msgstr "ملف تعريف نوع البيانات"
+
+# Links
+#: Links
+msgid "Links"
+msgstr "الروابط"
+
+# Notes
+#: Notes
+msgid "Notes"
+msgstr "الملاحظات"
+
+# VisitFCP
+#: VisitFCP
+msgid "Visit the FHIR Community Process Specification Registry"
+msgstr "تفضل بزيارة سجل مواصفات عملية مجتمع FHIR"
+
+# CountryFlag
+#: CountryFlag
+msgid "flag"
+msgstr "العلم"
+
+# PrevPage
+#: PrevPage
+msgid "< prev"
+msgstr "<السابق"
+
+# NextPage
+#: NextPage
+msgid "next >"
+msgstr "التالي >"
+
+# PageBottom
+#: PageBottom
+msgid "bottom"
+msgstr "القاع"
+
+# PageTop
+#: PageTop
+msgid "top"
+msgstr "أعلى"
+
+# IGCopyright
+#: IGCopyright
+msgid "IG © %YEAR%"
+msgstr "IG © %YEAR%."
+
+# IGPackage
+#: IGPackage
+msgid "Package %PKG% based on %FHIRVER%."
+msgstr "الحزمة %PKG% استناداً إلى %FHIRVER%."
+
+# GeneratedDate
+#: GeneratedDate
+msgid "Generated %DATE%"
+msgstr "تم إنشاء %التاريخ٪٪"
+
+# PageStandardsStatus
+#: PageStandardsStatus
+msgid "Page standards status"
+msgstr "حالة معايير الصفحة"
+
+# StandardsStatus
+#: StandardsStatus
+msgid "Standards Status"
+msgstr "حالة المعايير"
+
+# FromNormative
+#: FromNormative
+msgid "from v%NORMVER%"
+msgstr "من v%NORMVER%"
+
+# MaturityLevel
+#: MaturityLevel
+msgid "Maturity Level"
+msgstr "مستوى النضج"
+
+# OfficialURL
+#: OfficialURL
+msgid "Official URL"
+msgstr "عنوان URL الرسمي"
+
+# CopyURL
+#: CopyURL
+msgid "Click to copy URL"
+msgstr "انقر لنسخ عنوان URL"
+
+# CopyVersioned
+#: CopyVersioned
+msgid "Click to copy versioned URL"
+msgstr "انقر لنسخ عنوان URL المنسوخ"
+
+# Version
+#: Version
+msgid "Version"
+msgstr "الإصدار"
+
+# ResourceDate
+#: ResourceDate
+msgid "as of %RESDATE%"
+msgstr "اعتبارًا من %RESDATE%"
+
+# Responsible
+#: Responsible
+msgid "Responsible"
+msgstr "مسؤول"
+
+# Realm
+#: Realm
+msgid "Realm"
+msgstr "عالم"
+
+# ComputableName
+#: ComputableName
+msgid "Computable Name"
+msgstr "اسم قابل للحساب"
+
+# OtherIdentifiers
+#: OtherIdentifiers
+msgid "Other Identifiers"
+msgstr "معرّفات أخرى"
+
+# Keywords
+#: Keywords
+msgid "Keywords"
+msgstr "الكلمات المفتاحية"
+
+# Usage
+#: Usage
+msgid "Usage"
+msgstr "الاستخدام"
+
+# CopyrightLegal
+#: CopyrightLegal
+msgid "Copyright/Legal"
+msgstr "حقوق الطبع والنشر/قانوني"
+
+# NarrativeContent
+#: NarrativeContent
+msgid "Narrative Content"
+msgstr "المحتوى السردي"
+
+# TableOfContents
+#: TableOfContents
+msgid "Table of Contents"
+msgstr "جدول المحتويات"
+
+# QAReport
+#: QAReport
+msgid "QA Report"
+msgstr "تقرير ضمان الجودة"
+
+# ReadingTerminology
+#: ReadingTerminology
+msgid "Description of the above table(s)"
+msgstr "وصف الجدول (الجداول) أعلاه"
+
+# TestPlans
+#: TestPlans
+msgid "Test Plans"
+msgstr "خطط الاختبار"
+
+# Actors
+#: Actors
+msgid "Actors"
+msgstr "الممثلون"
+
+# Diagram
+#: Diagram
+msgid "Diagram"
+msgstr "الرسم البياني"
+
+# Processes
+#: Processes
+msgid "Processes"
+msgstr "العمليات"
+
+# Instances
+#: Instances
+msgid "Instances"
+msgstr "المثيلات"
+
+# WorkInProgress
+#: WorkInProgress
+msgid "The content in this section has not undergone work group review and may be significantly revised prior to the next ballot."
+msgstr "لم يخضع محتوى هذا القسم لمراجعة مجموعة العمل وقد يتم تنقيحه بشكل كبير قبل الاقتراع التالي."
+
+# Contents
+#: Contents
+msgid "Contents"
+msgstr "المحتويات"
+
+# Globals
+#: Globals
+msgid "Globals"
+msgstr "غلوبالز"
+
+# GlobalProfiles
+#: GlobalProfiles
+msgid "Global Profiles"
+msgstr "الملامح العالمية"
+
+# ArtifactsIntro
+#: ArtifactsIntro
+msgid "This page provides a list of the FHIR artifacts defined as part of this implementation guide."
+msgstr "توفر هذه الصفحة قائمة بأدوات FHIR المحددة كجزء من دليل التنفيذ هذا."
+
+# Derive
+#: Derive
+msgid "This structure is derived from %ARTIFACT%"
+msgstr "هذا التركيب مشتق من %ARTIFACT%"
+
+# ArtifactsSummary
+#: ArtifactsSummary
+msgid "Artifacts Summary"
+msgstr "ملخص القطع الأثرية"
+
+# Language
+#: Language
+msgid "Language"
+msgstr "اللغة"
+
+# UMLDiagram
+#: UMLDiagram
+msgid "UML Diagram"
+msgstr "مخطط UML البياني"
+
+# Obligations
+#: Obligations
+msgid "Obligations"
+msgstr "الالتزامات"
+
+# OpenEHR
+#: OpenEHR
+msgid "openEHR View"
+msgstr "طريقة عرض OpenEHR"
+
+# QuestionnaireTree
+#: QuestionnaireTree
+msgid "Tree view"
+msgstr "عرض الشجرة"
+
+# QuestionnaireSample
+#: QuestionnaireSample
+msgid "Sample Rendering"
+msgstr "نموذج العرض"
+
+# QuestionnaireLogic
+#: QuestionnaireLogic
+msgid "Form Logic"
+msgstr "منطق الشكل"
+
+# QuestionnaireResponses
+#: QuestionnaireResponses
+msgid "Sample completed form"
+msgstr "نموذج نموذج مكتمل"
+
+# TestQuestionnaire
+#: TestQuestionnaire
+msgid "Test this Questionnaire"
+msgstr "اختبر هذا الاستبيان"
+
+# ResponsesQuestionnaire
+#: ResponsesQuestionnaire
+msgid "Responses for this Questionnaire"
+msgstr "الردود على هذا الاستبيان"
+
+# NoQuestionnaireResponses
+#: NoQuestionnaireResponses
+msgid "There are currently no QuestionnaireResponse instances for this Questionnaire defined in this IG."
+msgstr "لا توجد حاليًا أي مثيلات استبيان استبيانات محددة لهذا الاستبيان في هذا الدليل."

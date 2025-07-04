@@ -1,0 +1,19 @@
+---
+---
+{% assign localPage = page.path | split: "/" | last %}
+{% include fragment-pagebegin.html lang="{{[lang]}}" %}
+<!-- layouts\layout-changehistory.html -->
+
+<div style="counter-reset: section 10" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-base-navtabs.html type='{{[type]}}' id='{{[id]}}' active='history' lang="{{[lang]}}" %}
+
+  <a name="root"> </a>
+  <h2 id="root">{{type}}: {{site.data.resources[resource_].titlelang['{{[lang]}}']}} - {{site.data.stringsBase['{{[lang]}}']['ChangeHistory']}}</h2>
+  <p>{{site.data.stringsBase['{{[lang]}}']['HistoryOfChange'] | replace: "%ARTIFACT%", "{{[id]}} {{[type]}} | downcase"}}</p>
+
+  {% include {{[type]}}-{{[id]}}-history{{[langsuffix]}}.xhtml %}
+
+</div>
+{% assign includetabscripts = 'true' %}
+{% include fragment-pageend.html lang="{{[lang]}}" %}

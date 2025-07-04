@@ -1,0 +1,59 @@
+---
+---
+{% assign localPage = page.path | split: "/" | last %}
+{% include fragment-pagebegin.html lang="{{[lang]}}" %}
+<!-- layouts\layout-valueset -->
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-base-navtabs.html type='{{[type]}}' id='{{[id]}}' active='content' lang="{{[lang]}}" %}
+  <a name="root"> </a>
+  <h2 id="root">ValueSet: {{site.data.resources[resource_].titlelang['{{[lang]}}'] | escape_once}}
+{% if site.data.resources[resource_].experimental == true %}({{site.data.stringsBase['{{[lang]}}']['Experimental']}}){% endif %}
+  </h2>
+{% include fragment-resourceTable.html lang="{{[lang]}}" %}
+{%if site.data.resources[resource_].descriptionlang['{{[lang]}}'] %}
+<p>
+{{site.data.resources[resource_].description|markdownify}}
+</p>
+{% endif %}{%if site.data.resources[resource_].purpose %}
+<p>
+{{site.data.resources[resource_].purposelang['{{[lang]}}']|markdownify}}
+</p>
+{% endif %}
+
+  <p>
+    <b>References</b>
+  </p>
+  {% include {{[type]}}-{{[id]}}-xref{{[langsuffix]}}.xhtml %}
+
+  <!-- insert intro if present -->
+  {% include fragment-intro.html type='{{[type]}}' id='{{[id]}}' lang="{{[lang]}}" %}
+
+  <a name="definition"> </a>
+
+<!-- Content Logical Definition heading in the fragment -->
+  {% include {{[type]}}-{{[id]}}-cld{{[langsuffix]}}.xhtml %}
+
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">{{site.data.stringsBase['{{[lang]}}']['Expansion']}}</h3>
+
+  {% include {{[type]}}-{{[id]}}-expansion{{[langsuffix]}}.xhtml %}
+
+  <hr/>
+  <p>
+    <a href="http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology">{{site.data.stringsBase['{{[lang]}}']['ReadingTerminology']}}</a>.
+  </p>
+
+  {% if site.data.resources[resource_].contained != nil %}
+  <h4>{{site.data.stringsBase['{{[lang]}}']['Contained']}}</h4>
+  {% include {{[type]}}-{{[id]}}-contained-index{{[langsuffix]}}.xhtml %}
+  {% endif %}
+
+  <!-- insert notes if present -->
+  {% include fragment-notes.html type='{{[type]}}' id='{{[id]}}' lang="{{[lang]}}" %}
+
+  {% include {{[type]}}-{{[id]}}-history{{[langsuffix]}}.xhtml %}
+
+</div>
+{% include fragment-pageend.html lang="{{[lang]}}" %}

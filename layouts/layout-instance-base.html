@@ -1,0 +1,42 @@
+---
+---
+{% assign localPage = page.path | split: "/" | last %}
+{% include fragment-pagebegin.html lang="{{[lang]}}" %}
+<!-- layouts\layout-instance-base -->
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+
+  {% include fragment-base-navtabs.html type='{{[type]}}' id='{{[id]}}' active='content' lang="{{[lang]}}" %}
+
+  <a name="root"> </a>
+{% if site.data.artifacts[localPage].example %}
+  {% assign example = site.data.stringsBase['{{[lang]}}']['Example'] | append: ' ' %}
+{% endif %}
+{% assign prefix = site.data.artifacts[localPage].type %}
+{% assign respath = site.data.resources[resource_].path %}
+  <h2 id="root">{{example}}{{prefix}}: {{site.data.pages[respath].titlelang['{{[lang]}}'] | escape_once}}</h2>
+
+{% include fragment-simpletable.html lang="{{[lang]}}" %}
+{% unless example %}
+  {% if '{{[type]}}' == 'CapabilityStatement' %}
+      <p>
+      <a href="{{[id]}}.openapi.json" no-download="true">{{site.data.stringsBase['{{[lang]}}']['Swagger']}}</a> | <a href="{{[id]}}.openapi.json" download>{{site.data.stringsBase['{{[lang]}}']['Download']}}</a>
+      </p>
+  {% endif %}
+{% endunless %}
+
+  <!-- insert intro if present -->
+  {% include fragment-intro.html type='{{[type]}}' id='{{[id]}}' lang="{{[lang]}}" %}
+
+  {% include {{[type]}}-{{[id]}}-html{{[langsuffix]}}.xhtml %}
+
+  {% if site.data.resources[resource_].contained != nil %}
+  <h4>{{site.data.stringsBase['{{[lang]}}']['Contained']}}</h4>
+  {% include {{[type]}}-{{[id]}}-contained-index{{[langsuffix]}}.xhtml %}
+  {% endif %}
+
+  <!-- insert notes if present -->
+  {% include fragment-notes.html type='{{[type]}}' id='{{[id]}}' lang="{{[lang]}}" %}
+
+</div>
+{% include fragment-pageend.html lang="{{[lang]}}" %}

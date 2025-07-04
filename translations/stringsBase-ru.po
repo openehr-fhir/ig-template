@@ -1,0 +1,564 @@
+# en -> ru
+
+# NO_TRANS
+msgid ""
+msgstr ""
+
+#: NO_TRANS
+msgid "There is no translation page available for the current page, so it has been rendered in the default language"
+msgstr "Для текущей страницы не существует страницы перевода, поэтому она отображается на языке по умолчанию"
+
+# TRANS_HLP
+#: TRANS_HLP
+msgid "This page includes translations from the original source language in which the guide was authored.  Information on these translations and instructions on how to provide feedback on the translations can be found [here](translationinfo.html)."
+msgstr "На этой странице представлены переводы с языка оригинала, на котором было написано руководство.  Информацию об этих переводах и инструкции по предоставлению отзывов о переводах можно найти [здесь](translationinfo.html)."
+
+# Experimental
+#: Experimental
+msgid "Experimental"
+msgstr "Экспериментальный"
+
+# Swagger
+#: Swagger
+msgid "Raw OpenAPI-Swagger Definition file"
+msgstr "Необработанный файл определения OpenAPI-Swagger"
+
+# Download
+#: Download
+msgid "Download"
+msgstr "Скачать"
+
+# NoTestPlan
+#: NoTestPlan
+msgid "No test plans are currently available for the %ARTIFACT%."
+msgstr "В настоящее время для %ARTIFACT% не существует планов испытаний."
+
+# NoTestScript
+#: NoTestScript
+msgid "No test scripts are currently available for the %ARTIFACT%."
+msgstr "В настоящее время для %ARTIFACT% не существует тестовых сценариев."
+
+# ChangeHistory
+#: ChangeHistory
+msgid "Change History"
+msgstr "История изменений"
+
+# HistoryOfChange
+#: HistoryOfChange
+msgid "History of changes for %ARTIFACT%."
+msgstr "История изменений для %ARTIFACT%."
+
+# CodeSystemValuesets
+#: CodeSystemValuesets
+msgid "This Code system is referenced in the definition of the following value sets:"
+msgstr "Эта система кодов упоминается в определении следующих наборов значений:"
+
+# Contained
+#: Contained
+msgid "Contained resources"
+msgstr "Сохраненные ресурсы"
+
+# FormalExtension
+#: FormalExtension
+msgid "Formal Views of Extension Content"
+msgstr "Формальные представления о содержании расширений"
+
+# FormalProfile
+#: FormalProfile
+msgid "Formal Views of Profile Content"
+msgstr "Формальные представления содержимого профиля"
+
+# ReadingStructures
+#: ReadingStructures
+msgid "Description of Profiles, Differentials, Snapshots, and their representations"
+msgstr "Описание профилей, дифференциалов, снимков и их представлений"
+
+# KeyElementsTable
+#: KeyElementsTable
+msgid "Key Elements Table"
+msgstr "Таблица ключевых элементов"
+
+# DifferentialTable
+#: DifferentialTable
+msgid "Differential Table"
+msgstr "Дифференциальная таблица"
+
+# SnapshotTable
+#: SnapshotTable
+msgid "Snapshot Table"
+msgstr "Обзорная таблица"
+
+# PseudoXML
+#: PseudoXML
+msgid "Pseudo XML"
+msgstr "Псевдо XML"
+
+# PseudoJSON
+#: PseudoJSON
+msgid "Pseudo JSON"
+msgstr "Псевдо JSON"
+
+# PseudoTTL
+#: PseudoTTL
+msgid "Pseudo TTL"
+msgstr "Псевдо TTL"
+
+# StatisticsReferences
+#: StatisticsReferences
+msgid "Statistics/References"
+msgstr "Статистика/Ссылки"
+
+# AllTables
+#: AllTables
+msgid "All"
+msgstr "Все"
+
+# Derive
+#: Derive
+msgid "This structure is derived from %ARTIFACT%"
+msgstr "Эта структура получена из %ARTIFACT%"
+
+# Derived
+#: Derived
+msgid "This structure is derived from %ARTIFACT%"
+msgstr "Эта структура получена из %ARTIFACT%"
+
+# KeyElementsView
+#: KeyElementsView
+msgid "Key Elements View"
+msgstr "Просмотр ключевых элементов"
+
+# DifferentialView
+#: DifferentialView
+msgid "Differential View"
+msgstr "Дифференциальный вид"
+
+# SnapshotView
+#: SnapshotView
+msgid "Snapshot View"
+msgstr "Обзор моментальных снимков"
+
+# XMLTemplate
+#: XMLTemplate
+msgid "XML Template"
+msgstr "Шаблон XML"
+
+# JSONTemplate
+#: JSONTemplate
+msgid "JSON Template"
+msgstr "Шаблон JSON"
+
+# TTLTemplate
+#: TTLTemplate
+msgid "TTL Template"
+msgstr "Шаблон TTL"
+
+# OtherReps
+#: OtherReps
+msgid "Other representations of profile:"
+msgstr "Другие представления профиля:"
+
+# CSV
+#: CSV
+msgid "CSV"
+msgstr "CSV"
+
+# Excel
+#: Excel
+msgid "Excel"
+msgstr "Excel"
+
+# Schematron
+#: Schematron
+msgid "Schematron"
+msgstr "Schematron"
+
+# Example
+#: Example
+msgid "Example"
+msgstr "Пример"
+
+# Examples
+#: Examples
+msgid "Examples"
+msgstr "Примеры"
+
+# Raw
+#: Raw
+msgid "Raw %FMT%"
+msgstr "Сырой %FMT%"
+
+# Abstract
+#: Abstract
+msgid "Abstract"
+msgstr "Аннотация"
+
+# DetailedDescriptions
+#: DetailedDescriptions
+msgid "Detailed Descriptions"
+msgstr "Подробные описания"
+
+# DefinitionsFor
+#: DefinitionsFor
+msgid "Definitions for the %MODEL%"
+msgstr "Определения для %MODEL%"
+
+# NoExamples
+#: NoExamples
+msgid "No examples are currently available for the %ID% Profile."
+msgstr "В настоящее время нет примеров для профиля %ID%."
+
+# ExamplesForProfile
+#: ExamplesForProfile
+msgid "Examples for the %ID% Profile."
+msgstr "Примеры для профиля %ID%."
+
+# FormatProfile
+#: FormatProfile
+msgid "%FMT% Profile"
+msgstr "%FMT% Профиль"
+
+# FormatRep
+#: FormatRep
+msgid "%FMT% representation of the %ID% %TYPE%."
+msgstr "%FMT% представление %ID% %TYPE%."
+
+# Mappings
+#: Mappings
+msgid "Mappings"
+msgstr "Отображения"
+
+# MappingsFor
+#: MappingsFor
+msgid "Mappings for the %ID% %TYPE%."
+msgstr "Отображения для %ID% %TYPE%."
+
+# ChangesIn
+#: ChangesIn
+msgid "Changes in the %ID% %TYPE%."
+msgstr "Изменения в %ID% %TYPE%."
+
+# Testing
+#: Testing
+msgid "Testing"
+msgstr "Тестирование"
+
+# TestScripts
+#: TestScripts
+msgid "Test Scripts"
+msgstr "Тестовые сценарии"
+
+# Expansion
+#: Expansion
+msgid "Expansion"
+msgstr "Расширение"
+
+# Content
+#: Content
+msgid "Content"
+msgstr "Содержание"
+
+# XML
+#: XML
+msgid "XML"
+msgstr "XML"
+
+# JSON
+#: JSON
+msgid "JSON"
+msgstr "JSON"
+
+# TTL
+#: TTL
+msgid "TTL"
+msgstr "TTL"
+
+# History
+#: History
+msgid "History"
+msgstr "История"
+
+# Extension
+#: Extension
+msgid "Extension"
+msgstr "Удлинитель"
+
+# LogicalModel
+#: LogicalModel
+msgid "Logical Model"
+msgstr "Логическая модель"
+
+# ResourceProfile
+#: ResourceProfile
+msgid "Resource Profile"
+msgstr "Профиль ресурса"
+
+# DataTypeProfile
+#: DataTypeProfile
+msgid "Data Type Profile"
+msgstr "Профиль типа данных"
+
+# Links
+#: Links
+msgid "Links"
+msgstr "Ссылки"
+
+# Notes
+#: Notes
+msgid "Notes"
+msgstr "Примечания"
+
+# VisitFCP
+#: VisitFCP
+msgid "Visit the FHIR Community Process Specification Registry"
+msgstr "Посетите реестр спецификаций процессов сообщества FHIR"
+
+# CountryFlag
+#: CountryFlag
+msgid "flag"
+msgstr "флаг"
+
+# PrevPage
+#: PrevPage
+msgid "< prev"
+msgstr "< prev"
+
+# NextPage
+#: NextPage
+msgid "next >"
+msgstr "следующая >"
+
+# PageBottom
+#: PageBottom
+msgid "bottom"
+msgstr "дно"
+
+# PageTop
+#: PageTop
+msgid "top"
+msgstr "топ"
+
+# IGCopyright
+#: IGCopyright
+msgid "IG © %YEAR%"
+msgstr "IG © %YEAR%."
+
+# IGPackage
+#: IGPackage
+msgid "Package %PKG% based on %FHIRVER%."
+msgstr "Пакет %PKG% основан на %FHIRVER%."
+
+# GeneratedDate
+#: GeneratedDate
+msgid "Generated %DATE%"
+msgstr "Сгенерировано %DATE%"
+
+# PageStandardsStatus
+#: PageStandardsStatus
+msgid "Page standards status"
+msgstr "Состояние стандартов страницы"
+
+# StandardsStatus
+#: StandardsStatus
+msgid "Standards Status"
+msgstr "Статус стандартов"
+
+# FromNormative
+#: FromNormative
+msgid "from v%NORMVER%"
+msgstr "из v%NORMVER%"
+
+# MaturityLevel
+#: MaturityLevel
+msgid "Maturity Level"
+msgstr "Уровень зрелости"
+
+# OfficialURL
+#: OfficialURL
+msgid "Official URL"
+msgstr "Официальный URL"
+
+# CopyURL
+#: CopyURL
+msgid "Click to copy URL"
+msgstr "Нажмите, чтобы скопировать URL"
+
+# CopyVersioned
+#: CopyVersioned
+msgid "Click to copy versioned URL"
+msgstr "Нажмите, чтобы скопировать URL-адрес с версией"
+
+# Version
+#: Version
+msgid "Version"
+msgstr "Версия"
+
+# ResourceDate
+#: ResourceDate
+msgid "as of %RESDATE%"
+msgstr "по состоянию на %RESDATE%"
+
+# Responsible
+#: Responsible
+msgid "Responsible"
+msgstr "Ответственность"
+
+# Realm
+#: Realm
+msgid "Realm"
+msgstr "Realm"
+
+# ComputableName
+#: ComputableName
+msgid "Computable Name"
+msgstr "Вычисляемое имя"
+
+# OtherIdentifiers
+#: OtherIdentifiers
+msgid "Other Identifiers"
+msgstr "Другие идентификаторы"
+
+# Keywords
+#: Keywords
+msgid "Keywords"
+msgstr "Ключевые слова"
+
+# Usage
+#: Usage
+msgid "Usage"
+msgstr "Использование"
+
+# CopyrightLegal
+#: CopyrightLegal
+msgid "Copyright/Legal"
+msgstr "Авторское право/юридические вопросы"
+
+# NarrativeContent
+#: NarrativeContent
+msgid "Narrative Content"
+msgstr "Содержание повествования"
+
+# TableOfContents
+#: TableOfContents
+msgid "Table of Contents"
+msgstr "Оглавление"
+
+# QAReport
+#: QAReport
+msgid "QA Report"
+msgstr "Отчет о проверке качества"
+
+# ReadingTerminology
+#: ReadingTerminology
+msgid "Description of the above table(s)"
+msgstr "Описание вышеуказанной таблицы (таблиц)"
+
+# TestPlans
+#: TestPlans
+msgid "Test Plans"
+msgstr "Планы испытаний"
+
+# Actors
+#: Actors
+msgid "Actors"
+msgstr "Актеры"
+
+# Diagram
+#: Diagram
+msgid "Diagram"
+msgstr "Диаграмма"
+
+# Processes
+#: Processes
+msgid "Processes"
+msgstr "Процессы"
+
+# Instances
+#: Instances
+msgid "Instances"
+msgstr "Экземпляры"
+
+# WorkInProgress
+#: WorkInProgress
+msgid "The content in this section has not undergone work group review and may be significantly revised prior to the next ballot."
+msgstr "Содержание этого раздела не прошло проверку рабочей группы и может быть существенно пересмотрено до следующего голосования."
+
+# Contents
+#: Contents
+msgid "Contents"
+msgstr "Содержание"
+
+# Globals
+#: Globals
+msgid "Globals"
+msgstr "Globals"
+
+# GlobalProfiles
+#: GlobalProfiles
+msgid "Global Profiles"
+msgstr "Глобальные профили"
+
+# ArtifactsIntro
+#: ArtifactsIntro
+msgid "This page provides a list of the FHIR artifacts defined as part of this implementation guide."
+msgstr "На этой странице представлен список артефактов FHIR, определенных в рамках данного руководства по внедрению."
+
+# ArtifactsSummary
+#: ArtifactsSummary
+msgid "Artifacts Summary"
+msgstr "Краткое описание артефактов"
+
+# Language
+#: Language
+msgid "Language"
+msgstr "Язык"
+
+# UMLDiagram
+#: UMLDiagram
+msgid "UML Diagram"
+msgstr "Диаграмма UML"
+
+# Obligations
+#: Obligations
+msgid "Obligations"
+msgstr "Обязательства"
+
+# OpenEHR
+#: OpenEHR
+msgid "openEHR View"
+msgstr "openEHR View"
+
+# QuestionnaireTree
+#: QuestionnaireTree
+msgid "Tree view"
+msgstr "Вид на дерево"
+
+# QuestionnaireSample
+#: QuestionnaireSample
+msgid "Sample Rendering"
+msgstr "Образец рендеринга"
+
+# QuestionnaireLogic
+#: QuestionnaireLogic
+msgid "Form Logic"
+msgstr "Логика формы"
+
+# QuestionnaireResponses
+#: QuestionnaireResponses
+msgid "Sample completed form"
+msgstr "Образец заполненной формы"
+
+# TestQuestionnaire
+#: TestQuestionnaire
+msgid "Test this Questionnaire"
+msgstr "Протестируйте этот вопросник"
+
+# ResponsesQuestionnaire
+#: ResponsesQuestionnaire
+msgid "Responses for this Questionnaire"
+msgstr "Ответы на этот вопросник"
+
+# NoQuestionnaireResponses
+#: NoQuestionnaireResponses
+msgid "There are currently no QuestionnaireResponse instances for this Questionnaire defined in this IG."
+msgstr "В настоящее время в данном ИГ не определено ни одного экземпляра QuestionnaireResponse для этого вопросника."

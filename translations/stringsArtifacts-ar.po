@@ -1,0 +1,282 @@
+# ActorDefinitionName
+msgid ""
+msgstr ""
+
+#: ActorDefinitionName
+msgid "Requirements: Actor Definitions"
+msgstr "المتطلبات: تعريفات الممثل"
+
+# ActorDefinitionDesc
+#: ActorDefinitionDesc
+msgid "The following artifacts define the types of individuals and/or systems that will interact as part of the use cases covered by this implementation guide."
+msgstr "تحدد القطع الأثرية التالية أنواع الأفراد و/أو الأنظمة التي ستتفاعل كجزء من حالات الاستخدام التي يغطيها دليل التنفيذ هذا."
+
+# RequirementsName
+#: RequirementsName
+msgid "Requirements: Formal Requirements"
+msgstr "المتطلبات: المتطلبات الرسمية"
+
+# RequirementsDesc
+#: RequirementsDesc
+msgid "The following artifacts describe the specific requirements to be met by systems compliant with the implementation guide."
+msgstr "تصف الأدوات التالية المتطلبات المحددة التي يجب أن تستوفيها الأنظمة المتوافقة مع دليل التنفيذ."
+
+# CapabilityStatementName
+#: CapabilityStatementName
+msgid "Behavior: Capability Statements"
+msgstr "السلوك: بيانات القدرات"
+
+# CapabilityStatementDesc
+#: CapabilityStatementDesc
+msgid "The following artifacts define the specific capabilities that different types of systems are expected to have in order to comply with this implementation guide.  Systems conforming to this implementation guide are expected to declare conformance to one or more of the following capability statements."
+msgstr "تحدد النماذج التالية القدرات المحددة التي من المتوقع أن تمتلكها أنواع مختلفة من الأنظمة من أجل الامتثال لدليل التنفيذ هذا.  من المتوقع أن تعلن الأنظمة التي تتوافق مع دليل التنفيذ هذا التوافق مع واحد أو أكثر من بيانات القدرات التالية."
+
+# OperationDefinitionName
+#: OperationDefinitionName
+msgid "Behavior: Operation Definitions"
+msgstr "السلوك: تعريفات العملية"
+
+# OperationDefinitionDesc
+#: OperationDefinitionDesc
+msgid "These are custom operations that can be supported by and/or invoked by systems conforming to this implementation guide."
+msgstr "هذه عمليات مخصصة يمكن أن تدعمها و/أو تستدعيها الأنظمة المتوافقة مع دليل التنفيذ هذا."
+
+# MessageDefinitionName
+#: MessageDefinitionName
+msgid "Behavior: Message Definitions"
+msgstr "السلوك: تعريفات الرسائل"
+
+# MessageDefinitionDesc
+#: MessageDefinitionDesc
+msgid "These define the types of messages that can be sent and/or received by systems conforming to this implementation guide."
+msgstr "تحدد أنواع الرسائل التي يمكن إرسالها و/أو استقبالها من قبل الأنظمة المتوافقة مع دليل التنفيذ هذا."
+
+# SearchParameterName
+#: SearchParameterName
+msgid "Behavior: Search Parameters"
+msgstr "السلوك: معلمات البحث"
+
+# SearchParameterDesc
+#: SearchParameterDesc
+msgid "These define the properties by which a RESTful server can be searched.  They can also be used for sorting and including related resources."
+msgstr "تحدد هذه الخصائص التي يمكن من خلالها البحث في خادم RESTful.  يمكن استخدامها أيضًا لفرز الموارد ذات الصلة وتضمينها."
+
+# ActivityDefinitionName
+#: ActivityDefinitionName
+msgid "Knowledge Artifacts: Activity Definitions"
+msgstr "التحف المعرفية: تعريفات النشاط"
+
+# ActivityDefinitionDesc
+#: ActivityDefinitionDesc
+msgid "These define activities that can be performed as part of content in this implementation guide."
+msgstr "تحدد هذه الأنشطة التي يمكن القيام بها كجزء من المحتوى في دليل التنفيذ هذا."
+
+# PlanDefinitionName
+#: PlanDefinitionName
+msgid "Knowledge Artifacts: Plan Definitions"
+msgstr "التحف المعرفية: تعريفات الخطة"
+
+# PlanDefinitionDesc
+#: PlanDefinitionDesc
+msgid "These define workflows, rules, strategies, or protocols as part of content in this implementation guide."
+msgstr "هذه تحدد مهام سير العمل أو القواعد أو الاستراتيجيات أو البروتوكولات كجزء من محتوى دليل التنفيذ هذا."
+
+# MeasureName
+#: MeasureName
+msgid "Knowledge Artifacts: Measure"
+msgstr "التحف المعرفية: القياس"
+
+# MeasureDesc
+#: MeasureDesc
+msgid "These define measures as part of content in this implementation guide."
+msgstr "تحدد هذه التدابير كجزء من محتوى دليل التنفيذ هذا."
+
+# LibraryName
+#: LibraryName
+msgid "Knowledge Artifacts: Libraries"
+msgstr "التحف المعرفية: المكتبات"
+
+# LibraryDesc
+#: LibraryDesc
+msgid "These define logic, asset collections and other libraries as part of content in this implementation guide."
+msgstr "هذه تحدد المنطق ومجموعات الأصول والمكتبات الأخرى كجزء من المحتوى في دليل التنفيذ هذا."
+
+# GraphDefinitionName
+#: GraphDefinitionName
+msgid "Structures: Graph Definitions"
+msgstr "الهياكل: تعريفات الرسم البياني"
+
+# GraphDefinitionDesc
+#: GraphDefinitionDesc
+msgid "These define collections of interrelated resources that are useful to pass around as a group."
+msgstr "هذه تحدد مجموعات من الموارد المترابطة التي من المفيد تمريرها كمجموعة."
+
+# LogicalModelName
+#: LogicalModelName
+msgid "Structures: Logical Models"
+msgstr "الهياكل: النماذج المنطقية"
+
+# LogicalModelDesc
+#: LogicalModelDesc
+msgid "These define data models that represent the domain covered by this implementation guide in more business-friendly terms than the underlying FHIR resources."
+msgstr "وتحدد هذه النماذج نماذج البيانات التي تمثل المجال الذي يغطيه دليل التنفيذ هذا بمصطلحات أكثر ملاءمة للأعمال من موارد FHIR الأساسية."
+
+# QuestionnaireName
+#: QuestionnaireName
+msgid "Structures: Questionnaires"
+msgstr "الهياكل: الاستبيانات"
+
+# QuestionnaireDesc
+#: QuestionnaireDesc
+msgid "These define forms used by systems conforming to this implementation guide to capture or expose data to end users."
+msgstr "تحدد هذه النماذج المستخدمة من قبل الأنظمة المتوافقة مع دليل التنفيذ هذا لالتقاط البيانات أو كشفها للمستخدمين النهائيين."
+
+# AbstractProfileName
+#: AbstractProfileName
+msgid "Structures: Abstract Profiles"
+msgstr "الهياكل: الملامح المجردة"
+
+# AbstractProfileDesc
+#: AbstractProfileDesc
+msgid "These are profiles on resources or data types that describe patterns used by other profiles, but cannot be instantiated directly.  I.e. instances can conform to profiles *based* on these abstract profiles, but do not declare conformance to the abstract profiles themselves."
+msgstr "هذه هي ملفات التعريف الخاصة بالموارد أو أنواع البيانات التي تصف الأنماط المستخدمة من قبل ملفات التعريف الأخرى، ولكن لا يمكن إنشاؤها مباشرة.  أي أن النماذج يمكن أن تتوافق مع ملفات التعريف *بناءً* على هذه الملفات الشخصية المجردة، ولكنها لا تعلن التوافق مع ملفات التعريف المجردة نفسها."
+
+# ResourceProfileName
+#: ResourceProfileName
+msgid "Structures: Resource Profiles"
+msgstr "الهياكل: لمحات عن الموارد"
+
+# ResourceProfileDesc
+#: ResourceProfileDesc
+msgid "These define constraints on FHIR resources for systems conforming to this implementation guide."
+msgstr "تحدد هذه القيود على موارد FHIR للأنظمة المتوافقة مع دليل التنفيذ هذا."
+
+# DataTypeName
+#: DataTypeName
+msgid "Structures: Data Type Profiles"
+msgstr "الهياكل: ملفات تعريف نوع البيانات"
+
+# DataTypeDesc
+#: DataTypeDesc
+msgid "These define constraints on FHIR data types for systems conforming to this implementation guide."
+msgstr "تحدد هذه القيود على أنواع بيانات FHIR للأنظمة المتوافقة مع دليل التنفيذ هذا."
+
+# ExtensionName
+#: ExtensionName
+msgid "Structures: Extension Definitions"
+msgstr "الهياكل: تعريفات التمديدات"
+
+# ExtensionDesc
+#: ExtensionDesc
+msgid "These define constraints on FHIR data types for systems conforming to this implementation guide."
+msgstr "تحدد هذه القيود على أنواع بيانات FHIR للأنظمة المتوافقة مع دليل التنفيذ هذا."
+
+# ValueSetName
+#: ValueSetName
+msgid "Terminology: Value Sets"
+msgstr "المصطلحات: مجموعات القيم"
+
+# ValueSetDesc
+#: ValueSetDesc
+msgid "These define sets of codes used by systems conforming to this implementation guide."
+msgstr "تحدد مجموعات الرموز المستخدمة من قبل الأنظمة المتوافقة مع دليل التنفيذ هذا."
+
+# CodeSystemName
+#: CodeSystemName
+msgid "Terminology: Code Systems"
+msgstr "المصطلحات: أنظمة الرموز"
+
+# CodeSystemDesc
+#: CodeSystemDesc
+msgid "These define new code systems used by systems conforming to this implementation guide."
+msgstr "هذه تحدد أنظمة التعليمات البرمجية الجديدة التي تستخدمها الأنظمة المتوافقة مع دليل التنفيذ هذا."
+
+# NamingSystemName
+#: NamingSystemName
+msgid "Terminology: Naming Systems"
+msgstr "المصطلحات: أنظمة التسمية"
+
+# NamingSystemDesc
+#: NamingSystemDesc
+msgid "These define identifier and/or code system identities used by systems conforming to this implementation guide."
+msgstr "تحدد هذه المعرفات و/أو هويات نظام الرموز المستخدمة من قبل الأنظمة المتوافقة مع دليل التنفيذ هذا."
+
+# StructureMapName
+#: StructureMapName
+msgid "Terminology: Structure Maps"
+msgstr "المصطلحات: خرائط الهيكل"
+
+# StructureMapDesc
+#: StructureMapDesc
+msgid "These define transformations to convert between data structures used by systems conforming to this implementation guide."
+msgstr "تحدد هذه التحويلات للتحويل بين بنيات البيانات المستخدمة من قبل الأنظمة المتوافقة مع دليل التنفيذ هذا."
+
+# ConceptMapName
+#: ConceptMapName
+msgid "Terminology: Concept Maps"
+msgstr "المصطلحات: خرائط المفاهيم"
+
+# ConceptMapDesc
+#: ConceptMapDesc
+msgid "These define transformations to convert between codes by systems conforming with this implementation guide."
+msgstr "تحدد هذه التحويلات للتحويل بين الرموز بواسطة الأنظمة المتوافقة مع دليل التنفيذ هذا."
+
+# TestPlanName
+#: TestPlanName
+msgid "Testing Artifacts: TestPlans"
+msgstr "اختبار القطع الأثرية: خطط الاختبار"
+
+# TestPlanDesc
+#: TestPlanDesc
+msgid "These test plans are available to verify test coverage for this implementation guide"
+msgstr "خطط الاختبار هذه متاحة للتحقق من تغطية الاختبار لدليل التنفيذ هذا"
+
+# TestScriptName
+#: TestScriptName
+msgid "Testing Artifacts: TestScripts"
+msgstr "أدوات الاختبار: نصوص الاختبار"
+
+# TestScriptDesc
+#: TestScriptDesc
+msgid "These test definitions are available to FHIR test engines to verify systems are conforming to this implementation guide"
+msgstr "تعريفات الاختبار هذه متاحة لمحركات اختبار FHIR للتحقق من توافق الأنظمة مع دليل التنفيذ هذا"
+
+# ExampleScenarioName
+#: ExampleScenarioName
+msgid "Example: Example Scenarios"
+msgstr "أمثلة: أمثلة على سيناريوهات"
+
+# ExampleScenarioDesc
+#: ExampleScenarioDesc
+msgid "These define groups of interrelated examples that demonstrate one or more of the workflows supported by this implementation guide."
+msgstr "تحدد هذه الأمثلة مجموعات من الأمثلة المترابطة التي توضح واحدة أو أكثر من مهام سير العمل التي يدعمها دليل التنفيذ هذا."
+
+# ExampleName
+#: ExampleName
+msgid "Example: Example Instances"
+msgstr "مثال: أمثلة على المثيلات"
+
+# ExampleDesc
+#: ExampleDesc
+msgid "These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like."
+msgstr "هذه أمثلة توضح كيف يمكن أن تبدو البيانات التي تنتجها وتستهلكها الأنظمة المتوافقة مع دليل التنفيذ هذا."
+
+# ExampleSupportingName
+#: ExampleSupportingName
+msgid "Example: Example Supporting Instances"
+msgstr "مثال: أمثلة على المثيلات الداعمة"
+
+# ExampleSupportingDesc
+#: ExampleSupportingDesc
+msgid "These are example instances that are not governed by this implementation guide, but which are necessary to support other examples defined in the IG."
+msgstr "هذه أمثلة على أمثلة لا يحكمها دليل التنفيذ هذا، ولكنها ضرورية لدعم الأمثلة الأخرى المحددة في دليل التنفيذ."
+
+# OtherName
+#: OtherName
+msgid "Other"
+msgstr "أخرى"
+
+# OtherDesc
+#: OtherDesc
+msgid "These are resources that are used within this implementation guide that do not fit into one of the other categories."
+msgstr "هذه هي الموارد المستخدمة في دليل التنفيذ هذا والتي لا تندرج ضمن إحدى الفئات الأخرى."
