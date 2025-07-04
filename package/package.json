@@ -1,13 +1,9 @@
 {
-  "name" : "openehr.fhir.template",
+  "name" : "fhir.base2.template",
   "type" : "fhir.template",
   "license" : "CC0-1.0",
-  "description" : "IHE FHIR Template",
-  "author" : "http://openehr.org",
-  "canonical" : "http://fhir.org/templates/openehr.fhir.template",
-  "base" : "fhir.base.template",
-  "dependencies" : {
-    "fhir.base.template" : "current"
-  },
-  "version" : "0.1.1"
+  "description" : "FHIR IG Translated Base Template - foundational for use by anyone",
+  "author" : "http://hl7.org/fhir",
+  "canonical" : "http://fhir.org/templates/fhir.base2.template",
+  "version" : "0.0.1"
 }
