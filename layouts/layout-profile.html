@@ -49,15 +49,6 @@
   </p>
   <div id="tabs">
     <ul>
-      <li>
-        <a href="#tabs-key">{{site.data.stringsBase['{{[lang]}}']['KeyElementsTable']}}</a>
-      </li>
-      <li>
-        <a href="#tabs-diff">{{site.data.stringsBase['{{[lang]}}']['DifferentialTable']}}</a>
-      </li>
-      <li>
-        <a href="#tabs-snap">{{site.data.stringsBase['{{[lang]}}']['SnapshotTable']}}</a>
-      </li>
 {% if site.data.structuredefinitions["{{[id]}}"].obligations %}
       <li>
         <a href="#tabs-obligations">{{site.data.stringsBase['{{[lang]}}']['Obligations']}}</a>
@@ -77,6 +68,9 @@
         <a href="#tabs-adl">{{site.data.stringsBase['{{[lang]}}']['ADL']}}</a>
       </li>
 {% endif %}
+      <li>
+        <a href="#tabs-snap">{{site.data.stringsBase['{{[lang]}}']['SnapshotTable']}}</a>
+      </li>
 {% endif %}
 {% unless excludexml == 'y' %}
 <!--      <li>
@@ -100,48 +94,6 @@
         <a href="#tabs-all">{{site.data.stringsBase['{{[lang]}}']['AllTables']}}</a>
       </li>
     </ul>
-    <a name="tabs-key"> </a>
-    <div id="tabs-key">
-      <div id="tbl-key">
-        <div id="tbl-key-inner">
-          {% include StructureDefinition-{{[id]}}-snapshot-by-key{{[langsuffix]}}.xhtml %}
-          <!--Terminology Bindings heading in the fragment -->
-          {% include StructureDefinition-{{[id]}}-tx-key{{[langsuffix]}}.xhtml %}
-        
-          {% capture invariantskey %}
-            {% include StructureDefinition-{{[id]}}-inv-key{{[langsuffix]}}.xhtml %}
-          {% endcapture %}
-          <!-- 218 is size of empty table -->
-          {% unless invariantskey.size <= 218 %}
-            <a name="inv-key"> </a>
-            <!--Constraints  heading in the fragment -->
-            {% include StructureDefinition-{{[id]}}-inv-key{{[langsuffix]}}.xhtml %}
-          {% endunless%}
-        </div>
-      </div>
-    </div>
-    <a name="tabs-diff"> </a>
-    <div id="tabs-diff">
-      <div id="tbl-diff">
-        <p>{{site.data.stringsBase['{{[lang]}}']['Derived'] | replace: "%ARTIFACT%", sdlink}}</p>
-        <div id="tbl-diff-inner">
-          {% include StructureDefinition-{{[id]}}-diff{{[langsuffix]}}.xhtml %}
-          <a name="tx"> </a>
-          <!--Terminology Bindings heading in the fragment -->
-          {% include StructureDefinition-{{[id]}}-tx-diff{{[langsuffix]}}.xhtml %}
-        
-          {% capture invariantsdiff %}
-            {% include StructureDefinition-{{[id]}}-inv-diff{{[langsuffix]}}.xhtml %}
-          {% endcapture %}
-          <!-- 218 is size of empty table -->
-          {% unless invariantsdiff.size <= 218 %}
-            <a name="inv-diff"> </a>
-            <!--Constraints  heading in the fragment -->
-            {% include StructureDefinition-{{[id]}}-inv-diff{{[langsuffix]}}.xhtml %}
-          {% endunless%}
-        </div>
-      </div>
-    </div>
     <a name="tabs-snap"> </a>
     <div id="tabs-snap">
       <div id="tbl-snap">
